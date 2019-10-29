@@ -1,0 +1,3 @@
+/Users/mars/Documents/C/algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/mars/Documents/C/algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mars/Documents/C/algorithm/cmake-build-debug/CMakeFiles/algorithm.dir
