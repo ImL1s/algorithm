@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/algorithm.dir/bucketSort.c.o"
   "CMakeFiles/algorithm.dir/main.c.o"
+  "CMakeFiles/algorithm.dir/sort.c.o"
   "algorithm"
   "algorithm.pdb"
 )

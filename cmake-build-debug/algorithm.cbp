@@ -78,13 +78,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mars/Documents/C/algorithm/bucketSort.c">
-			<Option target="algorithm"/>
-		</Unit>
-		<Unit filename="/Users/mars/Documents/C/algorithm/bucketSort.h">
-			<Option target="algorithm"/>
-		</Unit>
 		<Unit filename="/Users/mars/Documents/C/algorithm/main.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/Users/mars/Documents/C/algorithm/sort.c">
+			<Option target="algorithm"/>
+		</Unit>
+		<Unit filename="/Users/mars/Documents/C/algorithm/sort.h">
 			<Option target="algorithm"/>
 		</Unit>
 		<Unit filename="/Users/mars/Documents/C/algorithm/CMakeLists.txt">

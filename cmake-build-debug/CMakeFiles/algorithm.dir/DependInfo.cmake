@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/mars/Documents/C/algorithm/bucketSort.c" "/Users/mars/Documents/C/algorithm/cmake-build-debug/CMakeFiles/algorithm.dir/bucketSort.c.o"
   "/Users/mars/Documents/C/algorithm/main.c" "/Users/mars/Documents/C/algorithm/cmake-build-debug/CMakeFiles/algorithm.dir/main.c.o"
+  "/Users/mars/Documents/C/algorithm/sort.c" "/Users/mars/Documents/C/algorithm/cmake-build-debug/CMakeFiles/algorithm.dir/sort.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

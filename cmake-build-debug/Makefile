@@ -123,33 +123,6 @@ algorithm/fast:
 	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/build
 .PHONY : algorithm/fast
 
-bucketSort.o: bucketSort.c.o
-
-.PHONY : bucketSort.o
-
-# target to build an object file
-bucketSort.c.o:
-	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/bucketSort.c.o
-.PHONY : bucketSort.c.o
-
-bucketSort.i: bucketSort.c.i
-
-.PHONY : bucketSort.i
-
-# target to preprocess a source file
-bucketSort.c.i:
-	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/bucketSort.c.i
-.PHONY : bucketSort.c.i
-
-bucketSort.s: bucketSort.c.s
-
-.PHONY : bucketSort.s
-
-# target to generate assembly for a file
-bucketSort.c.s:
-	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/bucketSort.c.s
-.PHONY : bucketSort.c.s
-
 main.o: main.c.o
 
 .PHONY : main.o
@@ -177,6 +150,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/main.c.s
 .PHONY : main.c.s
 
+sort.o: sort.c.o
+
+.PHONY : sort.o
+
+# target to build an object file
+sort.c.o:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/sort.c.o
+.PHONY : sort.c.o
+
+sort.i: sort.c.i
+
+.PHONY : sort.i
+
+# target to preprocess a source file
+sort.c.i:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/sort.c.i
+.PHONY : sort.c.i
+
+sort.s: sort.c.s
+
+.PHONY : sort.s
+
+# target to generate assembly for a file
+sort.c.s:
+	$(MAKE) -f CMakeFiles/algorithm.dir/build.make CMakeFiles/algorithm.dir/sort.c.s
+.PHONY : sort.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... algorithm"
-	@echo "... bucketSort.o"
-	@echo "... bucketSort.i"
-	@echo "... bucketSort.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sort.o"
+	@echo "... sort.i"
+	@echo "... sort.s"
 .PHONY : help
 
 

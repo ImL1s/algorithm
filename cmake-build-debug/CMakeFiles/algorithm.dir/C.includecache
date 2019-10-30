@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/mars/Documents/C/algorithm/bucketSort.c
+/Users/mars/Documents/C/algorithm/main.c
 stdio.h
 -
+sort.h
+/Users/mars/Documents/C/algorithm/sort.h
+
+/Users/mars/Documents/C/algorithm/sort.h
 

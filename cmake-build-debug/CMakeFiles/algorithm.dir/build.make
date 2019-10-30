@@ -70,29 +70,29 @@ CMakeFiles/algorithm.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/main.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mars/Documents/C/algorithm/main.c -o CMakeFiles/algorithm.dir/main.c.s
 
-CMakeFiles/algorithm.dir/bucketSort.c.o: CMakeFiles/algorithm.dir/flags.make
-CMakeFiles/algorithm.dir/bucketSort.c.o: ../bucketSort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mars/Documents/C/algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/algorithm.dir/bucketSort.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/bucketSort.c.o   -c /Users/mars/Documents/C/algorithm/bucketSort.c
+CMakeFiles/algorithm.dir/sort.c.o: CMakeFiles/algorithm.dir/flags.make
+CMakeFiles/algorithm.dir/sort.c.o: ../sort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mars/Documents/C/algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/algorithm.dir/sort.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/algorithm.dir/sort.c.o   -c /Users/mars/Documents/C/algorithm/sort.c
 
-CMakeFiles/algorithm.dir/bucketSort.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm.dir/bucketSort.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mars/Documents/C/algorithm/bucketSort.c > CMakeFiles/algorithm.dir/bucketSort.c.i
+CMakeFiles/algorithm.dir/sort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm.dir/sort.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mars/Documents/C/algorithm/sort.c > CMakeFiles/algorithm.dir/sort.c.i
 
-CMakeFiles/algorithm.dir/bucketSort.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/bucketSort.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mars/Documents/C/algorithm/bucketSort.c -o CMakeFiles/algorithm.dir/bucketSort.c.s
+CMakeFiles/algorithm.dir/sort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm.dir/sort.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mars/Documents/C/algorithm/sort.c -o CMakeFiles/algorithm.dir/sort.c.s
 
 # Object files for target algorithm
 algorithm_OBJECTS = \
 "CMakeFiles/algorithm.dir/main.c.o" \
-"CMakeFiles/algorithm.dir/bucketSort.c.o"
+"CMakeFiles/algorithm.dir/sort.c.o"
 
 # External object files for target algorithm
 algorithm_EXTERNAL_OBJECTS =
 
 algorithm: CMakeFiles/algorithm.dir/main.c.o
-algorithm: CMakeFiles/algorithm.dir/bucketSort.c.o
+algorithm: CMakeFiles/algorithm.dir/sort.c.o
 algorithm: CMakeFiles/algorithm.dir/build.make
 algorithm: CMakeFiles/algorithm.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mars/Documents/C/algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable algorithm"

@@ -1,8 +1,9 @@
 #include <stdio.h>
-#include "bucketSort.h"
+#include "sort.h"
 
 int main() {
     printf("Hello, World!\n");
-    bucketSort();
+//    bucketSort();
+    bubbleSort();
     return 0;
 }
